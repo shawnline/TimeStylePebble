@@ -52,3 +52,13 @@ Mkfile.old
 dkms.conf
 .DS_Store
 src/pkjs/secrets.js
+build/.wafpickle-darwin-34018032-98
+build/.wafpickle-darwin-34018032-98
+build/c4che/_cache.py
+build/c4che/basalt_cache.py
+build/c4che/chalk_cache.py
+build/c4che/diorite_cache.py
+build/c4che/emery_cache.py
+build/config.log
+build/pebble-js-app.js
+build/TimeStylePebble.pbw
