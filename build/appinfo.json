@@ -1,0 +1,211 @@
+{
+    "targetPlatforms": [
+        "basalt", 
+        "chalk", 
+        "diorite", 
+        "emery"
+    ], 
+    "displayName": "TimeStyle", 
+    "name": "timestyle-pebble", 
+    "messageKeys": {
+        "SettingAltClockName": 10005, 
+        "SettingWidget2ID": 10029, 
+        "SettingLanguageID": 10019, 
+        "WeatherUseNightIcon": 10026, 
+        "SettingWidget1ID": 10028, 
+        "SettingAltClockOffset": 10006, 
+        "SettingColorTime": 10013, 
+        "SettingWidget0ID": 10027, 
+        "WeatherCondition": 10000, 
+        "SettingShowLeadingZero": 10021, 
+        "SettingHourlyVibe": 10018, 
+        "SettingDisconnectIcon": 10009, 
+        "SettingShowBatteryPct": 10020, 
+        "SettingHealthUseRestfulSleep": 10017, 
+        "SettingColorSidebar": 10012, 
+        "WeatherForecastHighTemp": 10003, 
+        "SettingSidebarOnLeft": 10022, 
+        "SettingBluetoothVibe": 10008, 
+        "SettingClockFontId": 10010, 
+        "WeatherForecastLowTemp": 10004, 
+        "SettingDisableAutobattery": 10007, 
+        "SettingHealthUseDistance": 10016, 
+        "SettingUseMetric": 10025, 
+        "SettingColorBG": 10011, 
+        "SettingSidebarTextColor": 10023, 
+        "WeatherTemperature": 10001, 
+        "SettingDecimalSep": 10014, 
+        "SettingUseLargeFonts": 10024, 
+        "SettingDisableWeather": 10015, 
+        "WeatherForecastCondition": 10002
+    }, 
+    "companyName": "Freakified", 
+    "enableMultiJS": true, 
+    "versionLabel": "7.1", 
+    "capabilities": [
+        "health", 
+        "location", 
+        "configurable"
+    ], 
+    "sdkVersion": "3", 
+    "appKeys": {
+        "SettingAltClockName": 10005, 
+        "SettingWidget2ID": 10029, 
+        "SettingLanguageID": 10019, 
+        "WeatherUseNightIcon": 10026, 
+        "SettingWidget1ID": 10028, 
+        "SettingAltClockOffset": 10006, 
+        "SettingColorTime": 10013, 
+        "SettingWidget0ID": 10027, 
+        "WeatherCondition": 10000, 
+        "SettingShowLeadingZero": 10021, 
+        "SettingHourlyVibe": 10018, 
+        "SettingDisconnectIcon": 10009, 
+        "SettingShowBatteryPct": 10020, 
+        "SettingHealthUseRestfulSleep": 10017, 
+        "SettingColorSidebar": 10012, 
+        "WeatherForecastHighTemp": 10003, 
+        "SettingSidebarOnLeft": 10022, 
+        "SettingBluetoothVibe": 10008, 
+        "SettingClockFontId": 10010, 
+        "WeatherForecastLowTemp": 10004, 
+        "SettingDisableAutobattery": 10007, 
+        "SettingHealthUseDistance": 10016, 
+        "SettingUseMetric": 10025, 
+        "SettingColorBG": 10011, 
+        "SettingSidebarTextColor": 10023, 
+        "WeatherTemperature": 10001, 
+        "SettingDecimalSep": 10014, 
+        "SettingUseLargeFonts": 10024, 
+        "SettingDisableWeather": 10015, 
+        "WeatherForecastCondition": 10002
+    }, 
+    "longName": "TimeStyle", 
+    "shortName": "TimeStyle", 
+    "watchapp": {
+        "onlyShownOnCommunication": false, 
+        "hiddenApp": false, 
+        "watchface": true
+    }, 
+    "resources": {
+        "media": [
+            {
+                "menuIcon": true, 
+                "type": "bitmap", 
+                "name": "MENU_ICON", 
+                "file": "images/menuicon.png"
+            }, 
+            {
+                "type": "raw", 
+                "name": "LECO_REGULAR_FFONT", 
+                "file": "fonts/LECO1976-Regular.ffont"
+            }, 
+            {
+                "type": "raw", 
+                "name": "AVENIR_REGULAR_FFONT", 
+                "file": "fonts/AvenirNextRegular.ffont"
+            }, 
+            {
+                "type": "raw", 
+                "name": "AVENIR_BOLD_FFONT", 
+                "file": "fonts/AvenirNextDemiBold.ffont"
+            }, 
+            {
+                "type": "raw", 
+                "name": "WEATHER_GENERIC", 
+                "file": "data/WEATHER_GENERIC.pdc"
+            }, 
+            {
+                "type": "raw", 
+                "name": "WEATHER_THUNDERSTORM", 
+                "file": "data/THUNDERSTORM.pdc"
+            }, 
+            {
+                "type": "raw", 
+                "name": "WEATHER_RAINING_AND_SNOWING", 
+                "file": "data/RAINING_AND_SNOWING.pdc"
+            }, 
+            {
+                "type": "raw", 
+                "name": "WEATHER_PARTLY_CLOUDY_NIGHT", 
+                "file": "data/PARTLY_CLOUDY_NIGHT.pdc"
+            }, 
+            {
+                "type": "raw", 
+                "name": "WEATHER_PARTLY_CLOUDY", 
+                "file": "data/PARTLY_CLOUDY.pdc"
+            }, 
+            {
+                "type": "raw", 
+                "name": "WEATHER_LIGHT_SNOW", 
+                "file": "data/LIGHT_SNOW.pdc"
+            }, 
+            {
+                "type": "raw", 
+                "name": "WEATHER_LIGHT_RAIN", 
+                "file": "data/LIGHT_RAIN.pdc"
+            }, 
+            {
+                "type": "raw", 
+                "name": "WEATHER_HEAVY_SNOW", 
+                "file": "data/HEAVY_SNOW.pdc"
+            }, 
+            {
+                "type": "raw", 
+                "name": "WEATHER_HEAVY_RAIN", 
+                "file": "data/HEAVY_RAIN.pdc"
+            }, 
+            {
+                "type": "raw", 
+                "name": "DISCONNECTED", 
+                "file": "data/DISCONNECTED.pdc"
+            }, 
+            {
+                "type": "raw", 
+                "name": "DATE_BG", 
+                "file": "data/DATE_BG.pdc"
+            }, 
+            {
+                "type": "raw", 
+                "name": "WEATHER_CLOUDY", 
+                "file": "data/CLOUDY_DAY.pdc"
+            }, 
+            {
+                "type": "raw", 
+                "name": "WEATHER_CLEAR_NIGHT", 
+                "file": "data/CLEAR_NIGHT.pdc"
+            }, 
+            {
+                "type": "raw", 
+                "name": "WEATHER_CLEAR_DAY", 
+                "file": "data/CLEAR_DAY.pdc"
+            }, 
+            {
+                "type": "raw", 
+                "name": "BATTERY_CHARGE", 
+                "file": "data/BATTERY_CHARGE.pdc"
+            }, 
+            {
+                "type": "raw", 
+                "name": "BATTERY_BG", 
+                "file": "data/BATTERY_BG.pdc"
+            }, 
+            {
+                "type": "raw", 
+                "name": "HEALTH_SLEEP", 
+                "file": "data/HEALTH_SLEEP.pdc"
+            }, 
+            {
+                "type": "raw", 
+                "name": "HEALTH_STEPS", 
+                "file": "data/HEALTH_STEPS.pdc"
+            }, 
+            {
+                "type": "raw", 
+                "name": "HEALTH_HEART", 
+                "file": "data/HEALTH_HEART.pdc"
+            }
+        ]
+    }, 
+    "uuid": "4368ffa4-f0fb-4823-90be-f754b076bdaa"
+}
